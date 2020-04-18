@@ -4,6 +4,21 @@
   "description": "Playground nextjs blog",
   "main": "index.js",
   "repository": "https://github.com/oleks-fedotov/nextjs-blog",
-  "author": "Oleksandr Fedotov <[omitted]>",
-  "license": "MIT"
+  "author": "Oleksandr Fedotov",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^9.3.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.0",
+    "@types/react": "^16.9.34",
+    "typescript": "^3.8.3"
+  }
 }
