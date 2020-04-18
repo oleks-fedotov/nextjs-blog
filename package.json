@@ -1,0 +1,9 @@
+{
+  "name": "nextjs-blog",
+  "version": "1.0.0",
+  "description": "Playground nextjs blog",
+  "main": "index.js",
+  "repository": "https://github.com/oleks-fedotov/nextjs-blog",
+  "author": "Oleksandr Fedotov <[omitted]>",
+  "license": "MIT"
+}
