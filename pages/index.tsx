@@ -16,9 +16,38 @@ export default function Index() {
       <h1>bad_developer blog</h1>
       <ul>
         {blogPosts.map(title => (
-          <PostLink key={title} id={getBlockPostId(title)} title={title} />
+          <li key={title}>
+            <PostLink id={getBlockPostId(title)} title={title} />
+          </li>
         ))}
       </ul>
+      <style jsx>
+        {`
+          h1,
+          a {
+            font-family: 'Gill Sans', sans-serif;
+          }
+
+          ul {
+            padding: 0;
+          }
+
+          li {
+            list-style: none;
+            margin: 5px 0;
+          }
+        `}
+      </style>
+      <style global jsx>{`
+        a {
+          text-decoration: none;
+          color: blue;
+        }
+
+        a:hover {
+          opacity: 0.6;
+        }
+      `}</style>
     </Layout>
   )
 }

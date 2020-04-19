@@ -6,11 +6,9 @@ type PropsType = {
 }
 
 const PostLink = (props: PropsType) => (
-  <li>
-    <Link href={`/post/[id]`} as={`/post/${props.id}`}>
-      <a>{props.title}</a>
-    </Link>
-  </li>
+  <Link href={`/post/[id]`} as={`/post/${props.id}`}>
+    <a>{props.title}</a>
+  </Link>
 )
 
 export default PostLink
