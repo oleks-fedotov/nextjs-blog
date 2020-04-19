@@ -14,6 +14,7 @@ export default function Index() {
   return (
     <Layout>
       <h1>bad_developer blog</h1>
+      <h2>Posts:</h2>
       <ul>
         {blogPosts.map(title => (
           <li key={title}>
@@ -24,6 +25,7 @@ export default function Index() {
       <style jsx>
         {`
           h1,
+          h2,
           a {
             font-family: 'Gill Sans', sans-serif;
           }
